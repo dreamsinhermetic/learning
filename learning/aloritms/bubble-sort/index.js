@@ -20,7 +20,7 @@ function swap(array, leftElement, rightElement) {
 
 // Defining the function which would be the bubble sort algoritm realizaton
 
-function bubbleSorter(array) {
+const  bubbleSorter = (array) => {
   const len = array.length
   let swapped, i
 
